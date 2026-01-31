@@ -1,6 +1,6 @@
 variable "credentials" {
   description = "My Credentials"
-  default     = "./keys/dez-terra-service-account.json"
+  default     = "./keys/dez-terraform-sa.json"
   #ex: if you have a directory where this file is called keys with your service account json file
   #saved there as my-creds.json you could use default = "./keys/my-creds.json"
 }
@@ -8,7 +8,7 @@ variable "credentials" {
 
 variable "project" {
   description = "Project"
-  default     = "dez-terra"
+  default     = "dez-terraform"
 }
 
 variable "region" {
@@ -32,7 +32,7 @@ variable "bq_dataset_name" {
 variable "gcs_bucket_name" {
   description = "My Storage Bucket Name"
   #Update the below to a unique bucket name
-  default     = "terraform-demo-terra-bucket"
+  default     = "terraform-demo-terra-bucket-47243553111"
 }
 
 variable "gcs_storage_class" {
