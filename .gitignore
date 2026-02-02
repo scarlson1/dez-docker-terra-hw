@@ -15,6 +15,7 @@ wheels/
 # Virtual environments
 .venv
 keys/
+*.json
 
 # Local .terraform directories
 .terraform/
